@@ -8,6 +8,7 @@
     <title>Assignment-5</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- css link here -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,24 +22,40 @@
             </div>
             <div class="col-md-8">
                 <div class="fixed-content">
-                    <h1>Customized the right 24-inch Blue MacBook Pro for you.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi accusamus sunt
-                        asperiores.
-                        Id incidunt beatae cum, non labore ipsum! Atque vero nisi numquam, animi neque deserunt
-                        similique
-                        sapiente architecto!</p>
-                    <p>Memory</p>
-                    <button id="memory-8gb" class="btn btn-outline-secondary">8GB unified memory</button>
-                    <button id="memory-16gb" class="btn btn-outline-secondary">16GB unified memory</button>
-                    <p>Storage</p>
-                    <button id="storage-256gb" class="btn btn-outline-secondary">256GB SSD storage</button>
-                    <button id="storage-512gb" class="btn btn-outline-secondary">512GB SSD storage</button>
-                    <button id="storage-1tb" class="btn btn-outline-secondary">1TB SSD storage</button>
-                    <p>Choose and delivary option</p>
-                    <button id="free-delivery" class="btn btn-outline-secondary">Friday, Aug 25 FREE Prine
-                        Delivery</button>
-                    <button id="fast-delivery" class="btn btn-outline-secondary">Friday, Aug 21 Delivery charge
-                        $20</button>
+                    <!-- content area -->
+                    <div>
+                        <h1>Customized the right 24-inch Blue MacBook Pro for you.</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                            and
+                            16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports
+                            Magic
+                            Mouse Magic Keyboard - US English</p>
+                    </div>
+
+                    <!-- Memory area     -->
+                    <div class="my-4">
+                        <h4 class="pb-1">Memory</h4>
+                        <button id="memory-8gb" class="btn btn-outline-secondary">8GB unified memory</button>
+                        <button id="memory-16gb" class="btn btn-outline-secondary">16GB unified memory</button>
+                    </div>
+
+                    <!-- Storage area -->
+                    <div class="my-4">
+                        <h4 class="pb-1">Storage</h4>
+                        <button id="storage-256gb" class="btn btn-outline-secondary">256GB SSD storage</button>
+                        <button id="storage-512gb" class="btn btn-outline-secondary">512GB SSD storage</button>
+                        <button id="storage-1tb" class="btn btn-outline-secondary">1TB SSD storage</button>
+                    </div>
+
+                    <!-- Choose and delivary option area-->
+
+                    <div class="my-4">
+                        <h4 class="pb-1">Choose and delivary option</h4>
+                        <button id="free-delivery" class="btn btn-outline-secondary">Friday, Aug 25 FREE Prine
+                            Delivery</button>
+                        <button id="fast-delivery" class="btn btn-outline-secondary">Friday, Aug 21 Delivery charge
+                            $20</button>
+                    </div>
 
                     <!-- priceing table -->
                     <div class="row pricing-table my-4">
@@ -61,7 +78,7 @@
                     <div class="promo-code">
                         <div class="d-flex">
                             <div>
-                                <label>Add promo Code </label>
+                                <label class="fw-bold">Add promo Code </label>
                                 <input id="promo-code" class="form-control me-2" type="search" placeholder="Search"
                                     aria-label="Search">
                             </div>
