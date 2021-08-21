@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.fixed-image{
+    padding: 20px;
+}
+
+.fixed-content{
+    padding: 20px;
+}
+
+.pricing-table p {
+    border-bottom: 2px solid #e6dbdb;
+}
+
+.price {
+    width: 10%;
+}
+
+.fotter-area{
+    text-align: center;
+    border-top: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+}

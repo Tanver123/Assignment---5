@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="fixed-image">
+                    <img src="images/mac.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="fixed-content">
+                    <h1>Customized the right 24-inch Blue MacBook Pro for you.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi accusamus sunt
+                        asperiores.
+                        Id incidunt beatae cum, non labore ipsum! Atque vero nisi numquam, animi neque deserunt
+                        similique
+                        sapiente architecto!</p>
+                    <p>Memory</p>
+                    <button id="memory-8gb" class="btn btn-outline-secondary">8GB unified memory</button>
+                    <button id="memory-16gb" class="btn btn-outline-secondary">16GB unified memory</button>
+                    <p>Storage</p>
+                    <button id="storage-256gb" class="btn btn-outline-secondary">256GB SSD storage</button>
+                    <button id="storage-512gb" class="btn btn-outline-secondary">512GB SSD storage</button>
+                    <button id="storage-1tb" class="btn btn-outline-secondary">1TB SSD storage</button>
+                    <p>Choose and delivary option</p>
+                    <button id="free-delivery" class="btn btn-outline-secondary">Friday, Aug 25 FREE Prine
+                        Delivery</button>
+                    <button id="fast-delivery" class="btn btn-outline-secondary">Friday, Aug 21 Delivery charge
+                        $20</button>
+
+                    <!-- priceing table -->
+                    <div class="row pricing-table my-4">
+                        <div class="p-text col-md-6 pe-0 fw-bold">
+                            <p>Best Price </p>
+                            <p>Extra Memory Cost</p>
+                            <p>Extra Storag Cost</p>
+                            <p class="border-bottom-2 border-dark">Delivery Cost</p>
+                            <p>Total Price</p>
+                        </div>
+                        <div class="price col-md-6 ps-0 fw-bold ">
+                            <p>$<span id="best-price">1299</span></p>
+                            <p>$<span id="memory-cost">0</span></p>
+                            <p>$<span id="storage-cost">0</span></p>
+                            <p class="border-bottom-2 border-dark">$<span id="delivery-cost">0</span></p>
+                            <p>$<span class="total-price">1299</span></p>
+                        </div>
+                    </div>
+                    <!-- promo code area  -->
+                    <div class="promo-code">
+                        <div class="d-flex">
+                            <div>
+                                <label>Add promo Code </label>
+                                <input id="promo-code" class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </div>
+                            <div>
+                                <button class="btn btn-danger mt-4" id="promo-code-apply" type="submit">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer area & total price -->
+    <footer>
+        <h1 class="fotter-area">Total Price: $<span class="total-price">1219</span> </h1>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
