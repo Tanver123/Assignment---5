@@ -68,4 +68,7 @@ document.getElementById('promo-code-apply').addEventListener('click', function (
         promoCod.value = '';
 
     }
+    else {
+        promoCod.value = '';
+    }
 })
